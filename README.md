@@ -1,4 +1,4 @@
-#### Module 14 Challenge: Machine Learning Trading
+#### Module 14 Challenge: Machine Learning Trading Bot
 ##### Anvitha Chaluvadi
 
 <p align="center">
