@@ -21,3 +21,42 @@ Implement an algorithmic trading strategy that uses machine learning to automate
 Adjust the input parameters to optimize the trading algorithm.
 
 Train a new machine learning model and compare its performance to that of a baseline model.
+
+## Evaluation Report
+
+After thoroughly analyzing and comparing our trading models, I've gathered valuable insights into their performance and potential for future trading strategies. My evaluation process involved a detailed examination of each model's ability to predict market movements and execute profitable trades over time. Here's a summary of my findings and recommendations.
+
+### Insights from the Initial Models
+
+My exploration of various trading models revealed key differences in their performance:
+
+* Certain models excelled at identifying optimal moments for executing buy or sell orders, demonstrating strong predictive capability.
+* Others distinguished themselves by effectively differentiating between profitable and unprofitable trades, indicating their potential utility in trading scenarios.
+
+### Journey Through the Models
+
+I experimented with three distinct models, starting with a basic approach, progressing to a Support Vector Machine (SVM) strategy, and concluding with a Logistic Regression model. My goal was to leverage historical price data to automate trading decisions, focusing on the interaction between two moving averages as my primary signal. I simplified my assumptions by considering the ability to trade at the prices from the previous day, acknowledging the limitations of this approach in real-world trading.
+
+* The **Baseline Strategy Returns** model, which relied on simple moving average analysis, showed limited effectiveness. It struggled to provide accurate predictions about future market movements.
+
+<p align="center">
+<img src = Images/baseline.png width =60% height 30%=/>
+</p>
+
+* The **Support Vector Machine Returns** model demonstrated superior performance, particularly in volatile markets. It proved adept at identifying actionable patterns for buying or selling.
+
+<p align="center">
+<img src = Images/SVM-returns.png width =60% height 30%=/>
+</p>
+
+* The **Logistic Regression Returns** model underperformed in comparison. Its reliance on moving averages appeared to diminish its predictive accuracy over time.
+
+<p align="center">
+<img src = Images/LR-returns.png width =60% height 30%=/>
+</p>
+
+### Recommendations for Future Trading
+
+Based on my comprehensive review, I recommend the **Support Vector Machine Returns** model as the most promising option for trading. It outperformed the **Logistic Regression Returns** model and displayed significant potential for generating profits while managing risk effectively.
+
+The **Support Vector Machine Returns** model showcased an ability to enhance returns over time and navigate market volatility successfully. Therefore, I advise considering this model for real-world trading applications, and monitoring its performance as market conditions evolve.
